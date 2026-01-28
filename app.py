@@ -15,15 +15,14 @@ st.write("My first streamlit App")
 
 st.markdown("### Research ")
 
-
-
-
-
-
+from PIL import Image  # Import Image from Pillow
+img = Image.open("artificial-photosynthesis.jpeg") # Open the image file
+st.image(img, width=200) # Display the image with a specified width
 
 number = st.slider("pick an number", 1, 100)
 
 
 st.write(f"you picked {number}")
+
 
 
