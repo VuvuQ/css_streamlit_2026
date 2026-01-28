@@ -13,8 +13,17 @@ st.write("Day3")
 
 st.write("My first streamlit App")
 
+st.markdown("### Research ")
+
+
+
+
+
+
+
 number = st.slider("pick an number", 1, 100)
 
 
 st.write(f"you picked {number}")
+
 
